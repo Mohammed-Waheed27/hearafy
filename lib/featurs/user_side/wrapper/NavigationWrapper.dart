@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
-import 'package:mw_herafy/featurs/auth/presentation/pages/register_pages_login_pages/register_page_1.dart';
+import 'package:mw_herafy/featurs/user_side/presentation/pages/chats_page/chats_page.dart';
 import 'package:mw_herafy/featurs/user_side/presentation/pages/home_page/user_home_page.dart';
+import 'package:mw_herafy/featurs/user_side/presentation/pages/reservations_page/reservations_page.dart';
+import 'package:mw_herafy/featurs/user_side/presentation/pages/settings_page/settings_page.dart';
 import 'package:mw_herafy/theme/color/app_theme.dart';
 
 class NavigationWrapper extends StatefulWidget {
-  const NavigationWrapper({Key? key, this.initialIndex = 0}) : super(key: key);
+  const NavigationWrapper({Key? key, this.initialIndex = 2}) : super(key: key);
   final int initialIndex; // الصفحة الافتراضية عند الفتح
 
   @override
@@ -16,11 +18,11 @@ class NavigationWrapper extends StatefulWidget {
 class NavigationWrapperState extends State<NavigationWrapper> {
   late int _selectedIndex;
   final List<Widget> _pages = const [
+    SettingsPage(),
+    ChatsPage(),
     UserHomePage(),
-    UserHomePage(),
-    UserHomePage(),
-    UserHomePage(),
-    RegisterPage1()
+    ReservationsPage(),
+    SettingsPage() // More options page
   ];
 
   @override
@@ -62,7 +64,7 @@ class NavigationWrapperState extends State<NavigationWrapper> {
             GButton(icon: Icons.chat_bubble, text: 'الدردشات'),
             GButton(icon: Icons.home, text: 'الرئيسية'),
             GButton(icon: Icons.bookmark, text: 'الحجوزات'),
-            GButton(icon: Icons.more_horiz, text: 'المزيد'),
+            GButton(icon: Icons.settings, text: 'الإعدادات'),
           ],
         ),
       ),

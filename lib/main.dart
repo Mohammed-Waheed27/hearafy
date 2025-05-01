@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'featurs/auth/presentation/pages/register_pages_login_pages/final_registration_page.dart';
-import 'featurs/auth/presentation/pages/register_pages_login_pages/register_page_1.dart';
-import 'featurs/splash_screen_onboarding/splash_screen/splash_screen.dart';
+
 import 'theme/color/app_theme.dart';
 import 'theme/font/fontthem.dart';
 
