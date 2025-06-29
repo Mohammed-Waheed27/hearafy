@@ -10,19 +10,19 @@ class FontTheme {
       displayLarge: GoogleFonts.cairo(
         fontSize: 24.sp,
         fontWeight: FontWeight.w700,
-        color: lightColorScheme.onSurface,
+        color: lightColorScheme.scrim,
         height: 1.4,
       ),
       displayMedium: GoogleFonts.cairo(
         fontSize: 20.sp,
         fontWeight: FontWeight.w600,
-        color: lightColorScheme.onSurface,
+        color: lightColorScheme.scrim,
         height: 1.4,
       ),
       displaySmall: GoogleFonts.cairo(
         fontSize: 18.sp,
         fontWeight: FontWeight.w600,
-        color: lightColorScheme.onSurface,
+        color: lightColorScheme.scrim,
         height: 1.4,
       ),
 
@@ -30,19 +30,19 @@ class FontTheme {
       headlineLarge: GoogleFonts.cairo(
         fontSize: 20.sp,
         fontWeight: FontWeight.w700,
-        color: lightColorScheme.onSurface,
+        color: lightColorScheme.scrim,
         height: 1.4,
       ),
       headlineMedium: GoogleFonts.cairo(
         fontSize: 18.sp,
         fontWeight: FontWeight.w600,
-        color: lightColorScheme.onSurface,
+        color: lightColorScheme.scrim,
         height: 1.4,
       ),
       headlineSmall: GoogleFonts.cairo(
         fontSize: 16.sp,
         fontWeight: FontWeight.w600,
-        color: lightColorScheme.onSurface,
+        color: lightColorScheme.scrim,
         height: 1.4,
       ),
 
@@ -50,19 +50,19 @@ class FontTheme {
       titleLarge: GoogleFonts.cairo(
         fontSize: 16.sp,
         fontWeight: FontWeight.w600,
-        color: lightColorScheme.onSurface,
+        color: lightColorScheme.scrim,
         height: 1.4,
       ),
       titleMedium: GoogleFonts.cairo(
         fontSize: 14.sp,
         fontWeight: FontWeight.w500,
-        color: lightColorScheme.onSurface,
+        color: lightColorScheme.scrim,
         height: 1.4,
       ),
       titleSmall: GoogleFonts.cairo(
         fontSize: 12.sp,
         fontWeight: FontWeight.w500,
-        color: lightColorScheme.onSurface,
+        color: lightColorScheme.scrim,
         height: 1.4,
       ),
 
@@ -70,19 +70,19 @@ class FontTheme {
       bodyLarge: GoogleFonts.cairo(
         fontSize: 16.sp,
         fontWeight: FontWeight.w400,
-        color: lightColorScheme.onSurface,
+        color: lightColorScheme.scrim,
         height: 1.4,
       ),
       bodyMedium: GoogleFonts.cairo(
         fontSize: 14.sp,
         fontWeight: FontWeight.w400,
-        color: lightColorScheme.onSurface,
+        color: lightColorScheme.scrim,
         height: 1.4,
       ),
       bodySmall: GoogleFonts.cairo(
         fontSize: 12.sp,
         fontWeight: FontWeight.w400,
-        color: lightColorScheme.onSurface,
+        color: lightColorScheme.scrim,
         height: 1.4,
       ),
 
@@ -90,19 +90,19 @@ class FontTheme {
       labelLarge: GoogleFonts.cairo(
         fontSize: 14.sp,
         fontWeight: FontWeight.w500,
-        color: lightColorScheme.onSurface,
+        color: lightColorScheme.scrim,
         height: 1.4,
       ),
       labelMedium: GoogleFonts.cairo(
         fontSize: 12.sp,
         fontWeight: FontWeight.w500,
-        color: lightColorScheme.onSurface,
+        color: lightColorScheme.scrim,
         height: 1.4,
       ),
       labelSmall: GoogleFonts.cairo(
         fontSize: 10.sp,
         fontWeight: FontWeight.w500,
-        color: lightColorScheme.onSurface,
+        color: lightColorScheme.scrim,
         height: 1.4,
       ),
     );

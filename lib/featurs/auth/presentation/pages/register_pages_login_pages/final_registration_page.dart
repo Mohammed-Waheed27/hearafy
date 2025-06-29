@@ -6,6 +6,7 @@ import 'package:mw_herafy/featurs/auth/presentation/pages/register_pages_login_p
 import 'package:mw_herafy/theme/color/app_theme.dart';
 
 import '../../../../user_side/wrapper/NavigationWrapper.dart';
+import '../../../../worker_side/presentation/worker_main_screen.dart';
 
 class FinalRegistrationPage extends StatelessWidget {
   const FinalRegistrationPage({super.key});
